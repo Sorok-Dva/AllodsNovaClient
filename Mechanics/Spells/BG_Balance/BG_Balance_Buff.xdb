@@ -3,8 +3,9 @@
 	<Header>
 		<resourceId>2018420402</resourceId>
 	</Header>
-	<Name href="BG_Balance_Buff_Name.txt" />
-	<image href="/Interface/Icons/Spells/Mage/MageIceInstability.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+	<Name href="BG_Balance_Buff.Name.txt" />
+	<Description href="BG_Balance_Buff.Desc.txt"/>
+	<image href="/Interface/Icons/Misc/Papers/BookEvil.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
 	<effects>
 		<Item type="gameMechanics.elements.effects.ImpactsOverTime">
 			<impacts>
