@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ZoneLights>
+	<skyMesh href="/World/Sky/E3_01Astral.(SkyMesh).xdb#xpointer(/SkyMesh)" />
+	<staticLight>
+		<AmbientColor>2013282432</AmbientColor>
+		<SelfIllumColor>2013282432</SelfIllumColor>
+		<DiffuseColor>2013282432</DiffuseColor>
+		<PointLightColor>2013282432</PointLightColor>
+		<FogColor>2015177000</FogColor>
+	</staticLight>
+	<color>0xff920104</color>
+</ZoneLights>
