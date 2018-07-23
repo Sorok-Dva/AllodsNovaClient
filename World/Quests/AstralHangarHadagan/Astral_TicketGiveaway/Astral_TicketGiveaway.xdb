@@ -89,9 +89,9 @@
 	<lowPriority>true</lowPriority>
 	<zone href="/Maps/AstralHangarHadagan/Zones/AstralHangarHadagan/AstralHangarHadagan.xdb#xpointer(/gameMechanics.map.zone.ZoneResource)" />
 	<requiredLevel type="gameMechanics.formulas.IntConstantValue">
-		<value>45</value>
+		<value>56</value>
 	</requiredLevel>
 	<level type="gameMechanics.formulas.IntConstantValue">
-		<value>45</value>
+		<value>56</value>
 	</level>
 </gameMechanics.constructor.schemes.quest.QuestResource>

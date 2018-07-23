@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gameMechanics.constructor.schemes.quest.QuestResource>
 	<Header>
-		<resourceId>42070644</resourceId>
+		<resourceId>42070645</resourceId>
 	</Header>
 	<name href="LvlUp56Name.txt" />
 	<goal href="LvlUp56GoalText.txt" />
@@ -13,15 +13,12 @@
 	<pvp>false</pvp>
 	<autoSetReturnLocation>true</autoSetReturnLocation>
 	<returnLocation>
-		<zone href="/Maps/Kania_AL1/Zones/ArchipelagoLeague1/AstralCoast.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)" />
-		<position x="2251.953125" y="5118.488770" z="21.338699" />
+		<zone href="/Maps/Hadagan_Sanatorium/Zones/Hadagan_Sanatorium/Hadagan_Sanatorium.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)" />
+		<position x="1501.000000" y="1559.000000" z="0.000000" />
 	</returnLocation>
 	<finisher type="gameMechanics.elements.quest.QuestFinisherMob">
-		<mobWorld href="/Characters/Elf_female/Instances/ArchipelagoLeague1/OrcQuard.(MobWorld).xdb#xpointer(/gameMechanics.world.mob.MobWorld)" />
+		<mobWorld href="/Characters/Hadagan_male/Instances/Hadagan_Sanatorium/Admiral.(MobWorld).xdb#xpointer(/gameMechanics.world.mob.MobWorld)" />
 	</finisher>
-	<startImpacts />
-	<startConditions />
-	<counters />
 	<reward>
 		<mandatoryItems>
 			<Item>
@@ -32,10 +29,9 @@
 		<money>10000000</money>
 		<reputations />
 	</reward>
-	<secretSequence>true</secretSequence>
+	<secretSequence>false</secretSequence>
 	<tutorial>false</tutorial>
-	<internalName>LEVELUP56</internalName>
-	<zone href="/Maps/Kania_AL1/Zones/ArchipelagoLeague1/ArchipelagoLeague1.xdb#xpointer(/gameMechanics.map.zone.ZoneResource)" />
+	<zone href="/Maps/Hadagan_Sanatorium/Zones/Hadagan_Sanatorium/Hadagan_Sanatorium.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)" />
 	<requiredLevel type="gameMechanics.formulas.IntConstantValue">
 		<value>1</value>
 	</requiredLevel>

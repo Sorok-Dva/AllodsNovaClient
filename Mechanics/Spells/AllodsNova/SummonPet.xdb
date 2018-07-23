@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
+	<Header>
+		<resourceId>42070946</resourceId>
+	</Header>
+	<Name href="SummonPetName.txt" />
+	<Description href="SummonPetDesc.txt" />
+	<priority>100</priority>
+		<contextName href="" />
+		<contextDescription href="" />
+		<contextImage href="/Interface/Icons/Context/ContextSummonSkeleton.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+	</contextActionInfo>
+	<groups>
+		<Item href="/Mechanics/Spells/Groups/Magics.xdb#xpointer(/gameMechanics.constructor.basicInterfaces.ActionGroup)" />
+		<Item href="/Mechanics/Spells/Groups/VoiceSpells.xdb#xpointer(/gameMechanics.constructor.basicInterfaces.ActionGroup)" />
+		<Item href="/Mechanics/Spells/Groups/DragonRelic7.(ActionGroup).xdb#xpointer(/gameMechanics.constructor.basicInterfaces.ActionGroup)" />
+	</groups>
+	<image href="/Interface/Icons/Spells/Necromancer/SummonBanshee.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+	<visualScripts href="/Spells/VisScripts/Necromancer/SummonSkeleton.(SpellVisScripts).xdb#xpointer(/SpellVisScripts)" />
+	<targetType>STTSelf</targetType>
+	<iffPolicy>Friends</iffPolicy>
+	<triggersGlobalCooldown>true</triggersGlobalCooldown>
+	<ignoreGlobalCooldown>false</ignoreGlobalCooldown>
+	<needInGroup>false</needInGroup>
+	<launchWhenReady>false</launchWhenReady>
+	<needInFront>false</needInFront>
+	<mechanics />
+	<speed>2000</speed>
+</gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
