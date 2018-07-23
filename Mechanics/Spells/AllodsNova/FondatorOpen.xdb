@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
+	<Header>
+		<resourceId>42070658</resourceId>
+	</Header>
+	<Name href="FondatorOpenName.txt" />
+	<Description href="FondatorOpenDesc.txt" />
+	<targetType>STTSelf</targetType>
+	<mechanics />
+	<speed>2000</speed>
+</gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
