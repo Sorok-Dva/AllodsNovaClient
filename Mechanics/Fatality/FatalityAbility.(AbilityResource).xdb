@@ -3,7 +3,6 @@
 	<Header>
 		<resourceId>42070947</resourceId>
 	</Header>
-	<isHidden>true</isHidden>
 	<effects>
 		<Item type="gameMechanics.elements.effects.DeathTrigger">
 			<impacts>
